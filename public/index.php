@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<?php include "templates/header.php"; ?>
+<?php include "views/header.php"; ?>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -19,7 +19,7 @@
 		<li><a href="read.php"><strong>Read</strong></a> - find a user</li>
   </ul>
   
-  <?php include "templates/footer.php"; ?>
+  <?php include "views/footer.php"; ?>
 
 </body>
 </html>
