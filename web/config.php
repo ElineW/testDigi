@@ -5,7 +5,7 @@
  *
  */
 
-$host       = "pacific-element-168211:europe-west1:testdigi";
+$host       = "heroku_12fa990ebedfc05";
 $username   = "root";
 $password   = "root";
 $dbname     = "test"; // will use later
