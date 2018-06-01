@@ -4,6 +4,9 @@
  * Configuration for database connection
  *
  */ 
+
+include$url = "vendor/bin/heroku-php-apache2 web/")
+
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
 $server = $url["host"];
