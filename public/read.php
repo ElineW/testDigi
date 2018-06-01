@@ -1,4 +1,4 @@
-<?php include "templates/header.php"; ?>
+<?php include "views/header.php"; ?>
 <h2>Hent personopplysninger</h2>
 
 <form method="post">
@@ -8,4 +8,4 @@
 </form>
 
 <a href="index.php">Tilbake</a>
-<?php include "templates/footer.php"; ?>
+<?php include "views/footer.php"; ?>
