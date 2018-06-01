@@ -10,7 +10,7 @@
 
 
 if (isset($_POST['submit'])) {
-	require "../config.php";
+	require "/config.php";
 	require "../common.php";
 	/**require "../install.php";*/
 
