@@ -1,4 +1,4 @@
-<?php require "templates/header.php"; ?>
+<?php require "views/header.php"; ?>
 
 <?php
 
@@ -12,7 +12,7 @@
 if (isset($_POST['submit'])) {
 	require "../config.php";
 	require "../common.php";
-	require "../install.php";
+	/**require "../install.php";*/
 
 	try {
 		$connection = new PDO($dsn, $username, $password, $options);
