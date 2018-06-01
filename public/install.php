@@ -16,7 +16,7 @@ try {
 		fdato VARCHAR(50),
 		date TIMESTAMP
 	);";
-	
+
 	$connection->exec($sql);
 	
 	echo "Database and table users created successfully.";
@@ -24,3 +24,4 @@ try {
 	echo $sql . "<br>" . $error->getMessage();
 };
 
+?>
