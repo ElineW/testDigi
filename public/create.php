@@ -12,6 +12,7 @@
 if (isset($_POST['submit'])) {
 	require "../config.php";
 	require "../common.php";
+	require "../install.php";
 
 	try {
 		$connection = new PDO($dsn, $username, $password, $options);
@@ -20,8 +21,8 @@ if (isset($_POST['submit'])) {
 			"firstname" => $_POST['firstname'],
 			"lastname"  => $_POST['lastname'],
 			"email"     => $_POST['email'],
-			"age"       => $_POST['age'],
-			"location"  => $_POST['location']
+			"tlf"       => $_POST['tlf'],
+			"fdato"  => $_POST['fdato']
 		);
 
 		$sql = sprintf(
@@ -46,7 +47,7 @@ if (isset($_POST['submit'])) {
 	<blockquote><?php echo $_POST['firstname']; ?> successfully added.</blockquote>
 <?php } ?>
 
-<h2>Add a user</h2>
+<h2>Legg til en person</h2>
 
 <form method="post">
 	<label for="firstname">Fornavn</label>
