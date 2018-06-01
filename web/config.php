@@ -1,15 +1,17 @@
 <?php
 
-/**
+/** 
  * Configuration for database connection
  *
- */
+ */ 
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
-$host       = "heroku_12fa990ebedfc05";
-$username   = "root";
-$password   = "root";
-$dbname     = "test"; // will use later
-$dsn        = "mysql:host=$host;dbname=$dbname"; // will use later
-$options    = array(
-                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
-              );
+$server = $url["host"];
+$username = $url["user"];
+$password = $url["pass"];
+$db = substr($url["path"], 1);
+
+$conn = new mysqli($server, $username, $password, $db);
+?>
+
+
