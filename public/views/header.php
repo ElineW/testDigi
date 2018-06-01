@@ -12,4 +12,4 @@
 </head>
 
 <body>
-	<h1>Registrering</h1>
+	<h1>Registreringsskjema</h1>
