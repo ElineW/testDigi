@@ -10,7 +10,7 @@
 	<label for="tlf">Telefonnummer</label>
 	<input type="text" name="tlf" id="tlf">
 	<label for="fdato">Fødselsdato</label>
-	<input type="text" name="fdato" id="fdato">
+    <input type="text" name="fdato" id="fdato">
 	<input type="submit" name="submit" value="Submit">
 </form>
 

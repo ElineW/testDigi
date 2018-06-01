@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-
+<?php include "templates/header.php"; ?>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -17,7 +17,9 @@
 	<ul>
 		<li><a href="create.php"><strong>Create</strong></a> - add a user</li>
 		<li><a href="read.php"><strong>Read</strong></a> - find a user</li>
-	</ul>
+  </ul>
+  
+  <?php include "templates/footer.php"; ?>
 
 </body>
 </html>
