@@ -32,4 +32,3 @@ $statement->execute($new_user);
         /*<a href="index.php">Tilbake</a> **/
     
 ?>
-
