@@ -17,6 +17,7 @@
 }
 .jumbotron h1 {
   font-size: 40px;
+  color: pink;
 }
 .navbar + .jumbotron {
   margin-top: -20px;
